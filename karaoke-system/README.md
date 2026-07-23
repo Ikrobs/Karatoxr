@@ -26,7 +26,7 @@ Abra dois terminais.
 
 **Terminal 1 — servidor:**
 ```bash
-cd server
+cd karaoke-system/server
 npm install
 npm run dev
 ```
@@ -34,7 +34,7 @@ Sobe em `http://localhost:3001` (REST em `/api/songs`, WebSocket em `/ws`).
 
 **Terminal 2 — client:**
 ```bash
-cd client
+cd karaoke-system/client
 npm install
 npm run dev -- --host
 ```
